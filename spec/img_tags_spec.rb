@@ -32,4 +32,5 @@ RSpec.describe 'index.html' do
     expect(img.attributes["title"]).to_not be_nil, "Your third <img> tag needs an title attribute"
     expect(img.attributes["title"].value).to_not eq(""), "The title attribute should have text content.  This will show up when a mouse hovers over the image"
   end
+
 end
